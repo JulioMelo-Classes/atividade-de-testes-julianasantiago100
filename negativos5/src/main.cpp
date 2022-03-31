@@ -4,9 +4,15 @@ using std::cout;
 
 const int SIZE = 5; // input size.
 
-int main(void)
-{
-    // TODO: Adicione aqui seu código.
-
+int main(void){
+  int numeros[5];
+  int flag = 0;
+  
+  for (int i = 0; i < SIZE; i++){
+    cin >> numeros[i];
+    if(numeros[i] < 0)
+      flag++;
+  }
+  cout << flag;
     return 0;
 }
