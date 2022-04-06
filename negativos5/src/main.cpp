@@ -14,5 +14,8 @@ int main(void){
       flag++;
   }
   cout << flag;
+  cout << "Modificando hehe.."<<endl;
     return 0;
 }
+
+// arquivos untraked não estão sob o controle de versão. Um desses comandos é o commit
